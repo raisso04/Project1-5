@@ -64,6 +64,25 @@ Ce dépôt contient une série d'exercices et leurs solutions.
    - Transposition de la matrice et affichage du résultat
    - Gestion avancée des erreurs avec exceptions personnalisées
 
+### TP5
+1. [Travail 1: Héritage et Polymorphisme](./TP5/Travail1/README.md)
+   - Exploration des concepts d'héritage en Java
+   - Implémentation du polymorphisme avec une hiérarchie de classes
+   - Manipulation des conversions de types (casting)
+   - Étude de la liaison dynamique des méthodes
+
+2. [Travail 2: Interfaces et Implémentation Multiple](./TP5/Travail2/README.md)
+   - Création et utilisation d'interfaces en Java
+   - Implémentation de plusieurs interfaces par une classe
+   - Démonstration du polymorphisme par interface
+   - Application pratique avec des formes géométriques
+
+3. [Travail 3: Utilité des Interfaces](./TP5/Travail3/README.md)
+   - Définition des contrats de classe
+   - Flexibilité par le polymorphisme d'interface
+   - Solution à l'héritage multiple
+   - Facilitation du développement en équipe
+
 ## Navigation
 
 Chaque TP contient plusieurs travaux, organisés dans leurs propres dossiers :
