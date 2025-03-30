@@ -1,0 +1,15 @@
+Algorithme SommeDépasse100
+  Entrée : tableau (un tableau de nombres positifs)
+  Sortie : booléen (vrai si la somme dépasse 100, faux sinon)
+
+  somme ← 0
+
+  Pour chaque élément dans tableau
+    somme ← somme + élément
+    Si somme > 100
+      Retourner vrai
+    Fin Si
+  Fin Pour
+
+  Retourner faux
+Fin Algorithme

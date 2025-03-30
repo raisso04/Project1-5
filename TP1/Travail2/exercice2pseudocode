@@ -1,0 +1,13 @@
+Algorithme FizzBuzz
+  Pour i allant de 0 à 99
+    Si i est divisible par 3 et par 5
+      Afficher "FizzBuzz"
+    Sinon Si i est divisible par 3
+      Afficher "Fizz"
+    Sinon Si i est divisible par 5
+      Afficher "Buzz"
+    Sinon
+      Afficher i
+    Fin Si
+  Fin Pour
+Fin Algorithme
