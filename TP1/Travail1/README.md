@@ -54,3 +54,43 @@ Fin Algorithme
 ### Optimisations possibles
 1. **Approche parallèle**: Pour les très grands tableaux, possibilité de diviser en segments et calculer en parallèle
 2. **Vérification précoce**: Arrêt dès que la somme dépasse 100, optimisant le temps de calcul
+
+
+## Exécution Pas à Pas
+
+### Initialisation
+- **Entrée** : tableau (un tableau de nombres positifs)
+- **Sortie** : booléen (vrai si la somme dépasse 100, faux sinon)
+- **Variable** : somme = 0 (initialisation de la somme à zéro)
+
+### Exemple 1 : Tableau dépassant 100
+**Données** : `tableau = [55, 55, 55, 55]`
+
+#### Itération 1
+- Premier élément : `élément = 55`
+- Calcul : `somme = 0 + 55 = 55`
+- Résultat : somme n'est pas supérieure à 100
+- Action : Continue à l'itération suivante
+
+#### Itération 2
+- Deuxième élément : `élément = 55`
+- Calcul : `somme = 55 + 55 = 110`
+- Résultat : somme est supérieure à 100
+- Action : **Retourne vrai** et termine l'algorithme
+
+### Exemple 2 : Tableau ne dépassant pas 100
+**Données** : `tableau = [1, 2, 3, 5, 6]`
+
+#### Déroulement
+1. Premier élément : `somme = 0 + 1 = 1`
+2. Deuxième élément : `somme = 1 + 2 = 3`
+3. Troisième élément : `somme = 3 + 3 = 6`
+4. Quatrième élément : `somme = 6 + 5 = 11`
+5. Cinquième élément : `somme = 11 + 6 = 17`
+
+**Résultat** : somme n'est jamais supérieure à 100
+**Action** : **Retourne faux** après avoir parcouru tout le tableau
+
+### Conclusion
+- L'algorithme retourne `vrai` dès que la somme dépasse 100
+- L'algorithme retourne `faux` si la somme reste inférieure ou égale à 100 après avoir parcouru tous les éléments
